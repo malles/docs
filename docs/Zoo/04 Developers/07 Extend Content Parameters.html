@@ -38,3 +38,9 @@
 <p>By adding parameters to them, you will be able to use them in your templates, or anywhere else throughout the code. Use the applications, categories or items method <code>getParams()</code> and then <code>get(content.PARAM_NAME)</code>. Notice the <em>content.</em> in front of the PARAM_NAME, it tells the parameter object where to look.</p>
 
 <p>For example: <code>$this->application->getParams()->get('content.title')</code></p>
+
+<h3>Within a template php file</h3>
+
+<p>You can access the content of your parameter within a template with the following syntax:</p>
+
+<code>$view->params->get('content.title')</code>
