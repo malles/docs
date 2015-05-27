@@ -138,8 +138,7 @@
   </section>
   <section alias="zoo" name="Zoo" folder="Zoo">
     <category alias="getting-started" name="Getting Started" folder="01 Getting Started">
-      <doc alias="install-the-zoo" name="Install the Zoo" file="01 Install the Zoo.html"/>
-      <doc alias="install-the-demo-package" name="Install the Demo Package" file="02 Install the Demo Package.html"/>
+      <doc alias="install-zoo" name="Install ZOO" file="01 Install ZOO.html"/>
       <doc alias="how-to-update-3" name="How to Update" file="03 How to Update.html"/>
       <doc alias="create-a-new-app-instance" name="Create a new App Instance" file="04 Create a new App Instance.html"/>
       <doc alias="manage-the-frontpage" name="Manage the Frontpage " file="05 Manage the Frontpage .html"/>
