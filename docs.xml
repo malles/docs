@@ -136,7 +136,7 @@
       <doc alias="javascript-errors-2" name="JavaScript Errors" file="03 Javascript Errors.html"/>
     </category>
   </section>
-  <section alias="zoo" name="Zoo" folder="Zoo">
+  <section alias="zoo" name="ZOO" folder="Zoo">
     <category alias="getting-started" name="Getting Started" folder="01 Getting Started">
       <doc alias="install-zoo" name="Install ZOO" file="01 Install ZOO.html"/>
       <doc alias="how-to-update-3" name="How to Update" file="03 How to Update.html"/>
@@ -150,17 +150,17 @@
       <doc alias="delete-an-app-instance" name="Delete An App Instance " file="11 Delete An App Instance .html"/>
       <doc alias="install-a-new-app" name="Install a new App" file="12 Install a new App.html"/>
       <doc alias="how-to-uninstall-an-app" name="How to Uninstall An App" file="13 How to Uninstall An App.html"/>
-      <doc alias="set-up-the-zoo-search" name="Set Up the ZOO Search" file="14 Set Up the ZOO Search.html"/>
-      <doc alias="set-up-the-zoo-item-module" name="Set Up the ZOO Item Module " file="15 Set Up the ZOO Item Module .html"/>
-      <doc alias="set-up-the-zoo-tag-module" name="Set Up the ZOO Tag Module" file="16 Set Up the ZOO Tag Module.html"/>
+      <doc alias="set-up-zoo-search" name="Set Up ZOO Search" file="14 Set Up ZOO Search.html"/>
+      <doc alias="set-up-zoo-item-module" name="Set Up ZOO Item Module " file="15 Set Up ZOO Item Module .html"/>
+      <doc alias="set-up-zoo-tag-module" name="Set Up ZOO Tag Module" file="16 Set Up ZOO Tag Module.html"/>
       <doc alias="create-and-manage-comments" name="Create And Manage Comments" file="17 Create And Manage Comments.html"/>
       <doc alias="set-up-facebook-connect" name="Set Up Facebook Connect" file="18 Set Up Facebook Connect.html"/>
       <doc alias="set-up-twitter-connect" name="Set Up Twitter Connect" file="19 Set Up Twitter Connect.html"/>
-      <doc alias="set-up-the-zoo-comment-module" name="Set Up the ZOO Comment Module" file="20 Set Up the ZOO Comment Module.html"/>
+      <doc alias="set-up-zoo-comment-module" name="Set Up ZOO Comment Module" file="20 Set Up ZOO Comment Module.html"/>
       <doc alias="where-is-the-changelog-3" name="Where is the Changelog" file="21 Where is the Changelog.html"/>
     </category>
     <category alias="troubleshooting" name="Troubleshooting" folder="02 Troubleshooting">
-      <doc alias="how-to-solve-zoo-issues" name="How To Solve Zoo Issues" file="01 How To Solve Zoo Issues.html"/>
+      <doc alias="how-to-solve-zoo-issues" name="How To Solve ZOO Issues" file="01 How To Solve ZOO Issues.html"/>
       <doc alias="installation-issues-2" name="Installation Issues" file="02 Installation Issues.html"/>
       <doc alias="file-permission-issues-3" name="File Permission Issues" file="03 File Permission Issues.html"/>
       <doc alias="javascript-errors-3" name="JavaScript Errors" file="04 Javascript Errors.html"/>
