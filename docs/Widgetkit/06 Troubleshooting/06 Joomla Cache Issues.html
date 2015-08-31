@@ -1,0 +1,11 @@
+<h1 class="title">Joomla! Cache Issues</h1>
+
+<p>Widgetkit 2 is not compatible with Joomla! Progressive Cache because in such environment some necessary events are not getting triggered. If your project requires the Caching feature there is a workaround with a custom script.</p>
+
+<p>Place the following code in your Theme custom PHP script file or withing a custom system plugin:</p>
+
+<code>
+    if ($app = @include JPATH_ADMINISTRATOR.'/components/com_widgetkit/widgetkit-app.php') {
+        $app-&gt;trigger('view', array($app));
+    }
+</code>
