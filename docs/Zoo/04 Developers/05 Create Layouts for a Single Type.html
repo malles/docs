@@ -1,8 +1,8 @@
 <h1 class="title">Create layouts for a single type</h1>
 
 <p>This tutorial will walk you through the process of creating a custom layout for a particular type.</p>
-	
-	
+
+
 <h2>Getting started</h2>
 
 <div class="box-info">Items that are not categorized, will not show in the alpha index.</div>
@@ -25,9 +25,14 @@
 
 <pre><code>if ($this->item->type == 'demo_type') :
 
+	echo $this->renderer->render('item.demo_type.demo', array('view' => $this, 'item' => $this->item));
+
 else:
 
+	echo $this->renderer->render('item.full', array('view' => $this, 'item' => $this->item));
+
 endif;
+
 </code></pre>
 
 <p>You can wrap the render function in an <em>if clause</em> to check for an item type, with the code above. Please make sure to check against the types alias (name of the types config file).</p>
