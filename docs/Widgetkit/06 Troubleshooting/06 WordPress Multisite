@@ -3,13 +3,13 @@
 <h2>1. How do I install a Multisite with Widgetkit 2?</h2>
 <p>
 First you need to activate the Multisite in WordPress. To do that access your site's root via FTP and open the file <em>wp-config.php</em>.
-Look for the line:
+Look for the line:</p>
 
 	<pre><code>
 		/* That's all, stop editing! Happy blogging. */
 	</code></pre>
 
-and add the following code <em>above</em> it:
+<p>and add the following code <em>above</em> it:</p>
 
 	<pre><code>
 		define(&#39;WP_ALLOW_MULTISITE&#39;, true);
@@ -17,26 +17,26 @@ and add the following code <em>above</em> it:
 
 <img src="http://i68.tinypic.com/2myupmu.png" alt="WordPress Multisite">
 
-Go back to your WordPress Dashboard and <em>deactivate</em> every plugin you have. 
-Next go to _Tools -> Network Setup_ and follow the instructions.
+<p>Go back to your WordPress Dashboard and <em>deactivate</em> every plugin you have. 
+Next go to _Tools -> Network Setup_ and follow the instructions.</p>
 
 <img src="http://i66.tinypic.com/9iu6td.png" alt="WordPress Multisite">
 
-For a complete instruction on how to install a Multisite please have a look at the official WordPress Codex: [Create a Multisite](http://codex.wordpress.org/Create_A_Network)
+<p>For a complete instruction on how to install a Multisite please have a look at the official WordPress Codex: [Create a Multisite](http://codex.wordpress.org/Create_A_Network)<br />
 
 After you added the code snippets to your wp-config.php and .htaccess file, reload the page and log yourself back in. 
-Now you installed the Multisite. Create a new Site by going to <em>Sites -> Add new_</em>.
+Now you installed the Multisite. Create a new Site by going to <em>Sites -> Add new_</em>.<br />
 
-To activate Widgetkit on your Sites you <em>can not</em> use the Network Activate Bulk Action. Widgetkit need its own database within the Multisites so you have to activate Widgetkit on every site by itself.
+To activate Widgetkit on your Sites you <em>can not</em> use the Network Activate Bulk Action. Widgetkit need its own database within the Multisites so you have to activate Widgetkit on every site by itself.</p>
 
 <img src="http://i67.tinypic.com/2wn6bfs.png" alt="WordPress Multisite">
 
-Go to <em>every Site</em> you installed and activate Widgetkit. 
+<p>Go to <em>every Site</em> you installed and activate Widgetkit. </p>
 
 
 <img src="http://i66.tinypic.com/nyhht2.png" alt="WordPress Multisite">
-And there you have it. Now you can create Widgets with Widgetkit on every Multisite. 
-</p>
+<p>And there you have it. Now you can create Widgets with Widgetkit on every Multisite. </p>
+
 
 <h2>2. When I click on Widgetkit in my Multisite I get the Message 'Insufficient User Rights', why?</h2>
 <p>If you get the Error Message you activated Widgetkit in your Network Admin via the Bulk Option <em>Network Activate</em> which does not work with Widgetkit. 
